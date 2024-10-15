@@ -481,8 +481,12 @@ background-color: #31d0aa;
   gap: 16px;
 }
 /*-------*/
+.form-for-footer {
+  display: flex;
+  gap: 24px;
+}
 .footer-btn {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
@@ -499,7 +503,6 @@ background-color: #31d0aa;
   background: #4d5ae5;
   padding-top: 8px 16px 8px 24px;
   border: none;
-  margin-left: 23px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -551,7 +554,7 @@ color: #fff;
   
 }
 .icon-btn-footer {
-  margin-left: 15px;
+  margin-left: 16px;
   fill: #f4f4fd; 
 }
 /*---------------Footer END Section------*/
